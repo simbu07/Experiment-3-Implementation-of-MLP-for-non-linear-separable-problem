@@ -122,6 +122,7 @@ predict(w1,w2,test)
 ## OUTPUT:
 ### LOSS vs EPOCH
 ![img](NN1.png)
+
 ![img](NN2.png)
 
 ## RESULT:
