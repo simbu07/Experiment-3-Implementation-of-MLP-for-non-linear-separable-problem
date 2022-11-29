@@ -10,7 +10,7 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## RELATED THEORETICAL CONCEPT:
 Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows
 XOR truth table
-![Img1]()
+
 <img src="https://user-images.githubusercontent.com/112920679/195774720-35c2ed9d-d484-4485-b608-d809931a28f5.gif" width=50% heigh=50%t/>
 XOR is a classification problem, as it renders binary distinct outputs. If we plot the INPUTS vs OUTPUTS for the XOR gate, as shown in figure below
 
