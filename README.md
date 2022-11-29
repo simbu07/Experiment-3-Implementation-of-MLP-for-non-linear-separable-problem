@@ -29,14 +29,20 @@ The number of layers in MLP is not fixed and thus can have any number of hidden 
 2. Initialize the desired output of the XOR Gate
 3. Initialize the weights for the 2 layer MLP with 2 Hidden neuron 
               and 1 output neuron
-4. Repeat the  iteration  until the losses become constant and 
+ 4. Repeat the  iteration  until the losses become constant and 
               minimum
+	      
               (i)  Compute the output using forward pass output
+	      
               (ii) Compute the error  
-		          (iii) Compute the change in weight ‘dw’ by using backward 
+	      
+	      (iii) Compute the change in weight ‘dw’ by using backward 
                      propagation algorithm.
-             (iv) Modify the weight as per delta rule.
-             (v)   Append the losses in a list
+             
+	     (iv) Modify the weight as per delta rule.
+             
+	     (v)   Append the losses in a list
+	     
 5. Test for the XOR patterns.
 
 ## PROGRAM:
@@ -115,8 +121,6 @@ test=np.array([[1],[1]])
 predict(w1,w2,test)
 
 ```
-
-
 ## OUTPUT:
 ### LOSS vs EPOCH
 ![img](NN1.png)
